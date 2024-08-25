@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Loader</title>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="css/index.css" media="screen" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>File Loader</h1>
+      <h2>Demo Page</h2>
+      <div class="button-container">
+        <!-- Add an event listener to the button to load the file -->
+        <button class="button" onclick="embedFile()">Load demo3.js</button>
+      </div>
+      <p>The following files have been loaded:</p>
+      <div id="loaded-files"></div>
+      <div id="result"></div>
+    </div>
+    <!-- Include the JavaScript files -->
+    <script type="text/javascript" src="js/tiny-loader.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
